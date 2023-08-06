@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="tr.js" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/tr.js" nameIsGenerated="true" path-to-js-file="tr.js" working-dir="$PROJECT_DIR$/../housesProject">
+    <method v="2" />
+  </configuration>
+</component>
