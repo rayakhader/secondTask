@@ -1,0 +1,75 @@
+@media screen and (max-width: 700px) {
+
+    .house-nav{
+        width:100%;
+        display: flex;
+    }
+    .house-nav nav a{
+        margin: 7px;
+    }
+    .carousel-indicators{
+        display: flex;
+        left:35%;
+    }
+
+}
+@media screen and (min-width: 700px) {
+
+    .carousel-indicators{
+        display: flex;
+        left:37%;
+    }
+    .carousel-btn{
+        margin: 2px;
+    }
+
+}
+body{
+    font-family: Avenir;
+    overflow: hidden;
+}
+.house{
+    position: relative;
+    top: -10px;
+    left: -5px;
+}
+.house-img,.house-nav,.house-description,.carousel-indicators{
+    position: absolute;
+}
+.house-description{
+    top:200px;
+    color: white;
+    left:10px;
+}
+.house-nav a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+
+}
+.house-nav{
+    right: 0;
+    top: 20px;
+
+}
+.carousel-indicators{
+    top: 600px;
+    right: 40%;
+
+}
+.carousel-btn{
+    border-radius:1000px;
+    height: 15px;
+    width: 10px ;
+    background: darkgrey;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.img{
+    height:100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+.house-description p{
+    white-space: pre-line;
+}
