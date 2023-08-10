@@ -47,6 +47,7 @@ function onclick (review){
 for (let i =0 ;i<images.length;i++) {
     document.getElementsByClassName('carousel-btn')[i].addEventListener('click', function () {
         onclick(i);
+        rev=i;
     });
 }
 setInterval(function (){
